@@ -10,7 +10,7 @@
 ]]--
 
 for slut, asshole in pairs(game.CoreGui:GetChildren()) do
-	if (asshole:IsA("ScreenGui") and (asshole.Name == "Scryn")) then
+	if asshole:IsA("ScreenGui") and asshole.Name == "Scryn" then
 		asshole:Destroy();
 	end
 end
